@@ -5,7 +5,7 @@ def get_ranks(prefs):
     for h in prefs:
         ranks[h] = {}
         for i in range(len(prefs[h])):
-            ranks[h][prefs[h][i]] = i
+            ranks[h][prefs[h][i]] = i + 1
 
     return ranks
 
