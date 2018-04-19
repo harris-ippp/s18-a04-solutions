@@ -1,7 +1,7 @@
 import helper
 import numpy as np
 
-n = 20
+n = 100
 
 hospital_match_avg_rank = []
 student_match_avg_rank = []
